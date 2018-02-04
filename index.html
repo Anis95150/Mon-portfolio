@@ -1,0 +1,165 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+
+    <meta charset="utf-8">
+    <title>Mon site</title>
+
+    <!--- font --->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <!--- css --->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--- jquery --->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+
+</head>
+    <!--- contenu du site --->
+<body>
+    <!--- header --->
+    <header class="container-fluid header">
+        <div class="container">
+            <a href="#" class="logo"> Mon site </a>
+            <nav class="menu">
+                <a href="#"> Accueil </a>
+                <a href="#about"> Á propos </a>
+                <a href="#portfolio"> Portfolio </a>
+                <a href="#contact"> Contact </a>
+            </nav>
+        </div>
+
+    </header>
+    <!--- fin header --->
+
+    <!--- bannière --->
+    <section class="container-fluid banner">
+        <div class="ban">
+            <img src="img/ban.jpg" alt="bannière du site" />
+        </div>
+        <div class="inner-banner">
+            <h1> Bienvenue sur mon portfolio </h1>
+        </div>
+
+    </section>
+    <!--- end bannière --->
+
+    <!--- à propos --->
+    <section class="container-fluid about">
+        <div class="container">
+            <div class="row">
+                <h2 id="about"> Á propos de moi </h2>
+                <hr class="separator">
+                <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                    <h2> Études </h2>
+                        <ul>
+                            <li>
+                                Etudiants JAVA fullstack chez Simplon
+                            </li>
+                            <li>
+                                Cap Dosc à Poissy
+                            </li>
+                            <li>
+                                Etudiant en Histoire à la l'université paris 13
+                            </li>
+                            <li>
+                                Etudiant en LEA anglais-chinois à l'université Cergy-pontoise
+                            </li>
+                        </ul>
+                </article>
+                <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                    <h2> Éxpériences </h2>
+                        <ul>
+                            <li>
+                                Stage d'un mois dans la société JeVeuxJAurai(html sass js bootstrap)
+                            </li>
+                            <li>
+                                Facteur à Sartrouville
+                            </li>
+                        </ul>
+                </article>
+                <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                    <h2> Hobbies </h2>
+                        <ul>
+                            <li>
+                                Cinéma
+                            </li>
+                            <li>
+                                Manga
+                            </li>
+                            <li>
+                                Football
+                            </li>
+                            <li>
+                                Jeux-Vidéo
+                            </li>
+                            <li>
+                                Programmation
+                            </li>
+                        </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!--- end à propos --->
+
+    <!--- portfolio --->
+    <section class="container-fluid porfolio">
+        <div class="container">
+            <h2 id="portfolio"> Mon portfolio </h2>
+            <hr class="separator">
+            <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-folio">
+                <strong><a class="lien" href="https://github.com/Anis95150" target="_blank"> Mon Github </a></strong>
+                <a class="liens" href="https://github.com/Anis95150" target="_blank"> <img src="img/github_pink.png" alt="logo github"></a>
+            </article>
+            <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-folio">
+                <strong><a class="lien" href="https://www.linkedin.com/in/anis-darassas/" target="_blank"> Mon Linkedin </a></strong>
+                <a class="liens" href="https://www.linkedin.com/in/anis-darassas/" target="_blank"> <img src="img/linkedin-clipart-vector-11.png" alt="logo linkedin"></a>
+            </article>
+            <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 item-folio">
+                <strong><a class="lien" href="https://facebook.com" target="_blank"> Facebook </a></strong>
+                <a class="liens" href="https://facebook.com" target="_blank"><img  src="img/facebook-4.svg" alt="logo facebook"></a>
+            </article>
+        </div>
+    </section>
+    <!--- end porfolio --->
+
+    <!--- footer --->
+    <footer class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <h2 id="contact"> Contactez-moi </h2>
+                <hr class="separator">
+                <div class="span6">
+                    <form class="formulaireContact">
+                        <div class="controls controls-row">
+                            <input id="name" name="name" type="text" class="span3" placeholder="Name">
+                            <input id="email" name="email" type="email" class="span3" placeholder="Email address">
+                        </div>
+                        <div class="controls">
+                            <textarea id="message" name="message" class="span6" placeholder="Your Message" rows="5"></textarea>
+                        </div>
+
+                        <div class="controls">
+                            <button id="contact-submit" type="submit" class="btn btn-custom input-medium pull-right">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <p>
+                Copyright (c) 2018 Copyright Holder All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+    <!--- end footer --->
+
+    <!--- script --->
+<script type="text/javascript" src="app.js"></script>
+    <!--- end script --->
+</body>
+</html>

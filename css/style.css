@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+/* font-family: 'Raleway', sans-serif; */
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif ;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: #F91814 ;
+}
+
+.btn-custom {
+    background-color:#F91814;
+    color: #ffffff;
+}
+
+/* header */
+.header {
+    background-color: #F92221 ;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: #2C3E50;
+}
+/* bannière */
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner {
+    position: absolute;
+    top: 40%;
+    left : 0;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+/* about */
+#about{
+    text-align: center;
+    padding-top: 6%;
+}
+
+.about article {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.about article h2 {
+    text-align: center;
+    margin-top: 10%;
+}
+/* portfolio */
+.porfolio {
+    background-color: #eeeeee;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+.porfolio .item-folio {
+    height: auto;
+    background-color: #F92221;
+    /*border: 0.2px solid #F91814;*/
+}
+
+.porfolio .item-folio img {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.porfolio .item-folio .lien {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+/* contact */
+
+.footer {
+    background-color: #F92221;
+}
+
+.footer p {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#contact {
+    color: #ffffff;
+    text-align: center;
+}
+
+.formulaireContact {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+input[type=text] {
+    height: 50px;
+    width: 500px;
+    border: none;
+}
+
+input[type=email] {
+    height: 50px;
+    width: 500px;
+    border: none;
+
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    resize: vertical;
+}
